@@ -1,0 +1,25 @@
+{
+  "name": "firefox-web",
+  "version": "1.0.0",
+  "description": "Sitio Web sobre Firefox con HTML Y TailwindCss",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx tailwindcss -i ./src/tailwind.css -o ./src/dist/app.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeyker-Dev/FireFox-Web.git"
+  },
+  "author": "Jeyker-Dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jeyker-Dev/FireFox-Web/issues"
+  },
+  "homepage": "https://github.com/Jeyker-Dev/FireFox-Web#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.2"
+  }
+}
