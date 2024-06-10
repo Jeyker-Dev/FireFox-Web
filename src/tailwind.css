@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components
+{
+    .hamburguer div:first-child
+    {
+        @apply rotate-45 translate-y-1.5
+    }
+
+    
+    .hamburguer div:last-child
+    {
+        @apply -rotate-45 -translate-y-1
+    }
+}
